@@ -33,7 +33,7 @@ stages:
               FailOnStandardError: true
               azurePowerShellVersion: 'LatestVersion'
           - task: AzurePowerShell@5
-            displayname: "deletion"
+            displayName: "deletion"
             inputs:
               azureSubscription: 'Rajubhai'
               ScriptType: 'FilePath'
