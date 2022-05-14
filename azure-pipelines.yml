@@ -16,7 +16,7 @@ stages:
           - task: AzureResourceManagerTemplateDeployment@3
             inputs:
               deploymentScope: 'Resource Group'
-              azureResourceManagerConnection: 'devpipe'
+              azureResourceManagerConnection: 'devpipe1'
               subscriptionId: '1fc9145f-81cc-42cc-b393-94cda14865d6'
               action: 'Create Or Update Resource Group'
               resourceGroupName: 'devpipeline'
