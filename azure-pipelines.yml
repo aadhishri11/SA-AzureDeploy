@@ -11,7 +11,7 @@ stages:
     jobs:
       - job: 'validateandtest'
         pool:
-          vmimage: windows-latest
+          vmimage: ubuntu-latest
         steps:
           - task: AzureResourceManagerTemplateDeployment@3
             inputs:
